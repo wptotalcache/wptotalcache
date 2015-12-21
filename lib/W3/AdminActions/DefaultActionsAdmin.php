@@ -687,7 +687,7 @@ class W3_AdminActions_DefaultActionsAdmin {
         if ($this->is_cookie_domain_define($config_data)) {
             $new_config_data = preg_replace(W3TC_PLUGIN_TOTALCACHE_REGEXP_COOKIEDOMAIN, "define('COOKIE_DOMAIN', '" . addslashes($cookie_domain) . "')", $config_data, 1);
         } else {
-            $new_config_data = preg_replace('~<\?(php)?~', "\\0\r\ndefine('COOKIE_DOMAIN', '" . addslashes($cookie_domain) . "'); // " . __('Added by W3 Total Cache', 'w3-total-cache') . "\r\n", $config_data, 1);
+            $new_config_data = preg_replace('~<\?(php)?~', "\\0\r\ndefine('COOKIE_DOMAIN', '" . addslashes($cookie_domain) . "'); // " . __('Added by WP Total Cache', 'w3-total-cache') . "\r\n", $config_data, 1);
         }
 
         if ($new_config_data != $config_data) {

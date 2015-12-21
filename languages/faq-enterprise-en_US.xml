@@ -16,14 +16,14 @@
         </entry>
         <entry>
             <question><![CDATA[ When should I use Amazon <acronym title="Simple Notification Service">SNS</acronym>? ]]></question>
-            <answer><![CDATA[ It should be used when you use load balancing with multiple servers. Using Amazon <acronym title="Simple Notification Service">SNS</acronym> will make sure that the W3 Total Cache caches for each server is purged when required. ]]></answer>
+            <answer><![CDATA[ It should be used when you use load balancing with multiple servers. Using Amazon <acronym title="Simple Notification Service">SNS</acronym> will make sure that the WP Total Cache caches for each server is purged when required. ]]></answer>
         </entry>
     </section>
     <section name="Usage">
         <entry>
             <question><![CDATA[ How do I enable Database Cluster support? ]]></question>
             <answer><![CDATA[
-                    <p>In order to use Database Cluster you need use WordPress in network mode and enable Enterprise mode for W3 Total Cache.</p>
+                    <p>In order to use Database Cluster you need use WordPress in network mode and enable Enterprise mode for WP Total Cache.</p>
                     <p>After enabling Enterprise mode you will find a area inside Database Cache box on the General Settings page. Click 'Enable database cluster' to enable the functionality.</p>
                     ]]></answer>
         </entry>

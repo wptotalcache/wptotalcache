@@ -458,7 +458,7 @@ class W3_AdminActions_SupportActionsAdmin extends W3_UI_PluginView {
         $post['ip'] = $_SERVER['REMOTE_ADDR'];
         $post['user_agent'] = $_SERVER['HTTP_USER_AGENT'];
         $post['version'] = W3TC_VERSION;
-        $post['plugin'] = 'W3 Total Cache';
+        $post['plugin'] = 'WP Total Cache';
         $post['request_id'] = $request_id;
         $license_level = 'community';
         if (w3_is_pro($this->_config))

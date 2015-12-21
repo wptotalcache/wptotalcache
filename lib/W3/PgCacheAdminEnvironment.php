@@ -226,7 +226,7 @@ class W3_PgCacheAdminEnvironment {
                 $result . '<br />';
             $tech_message .= 'instead of "OK" response. <br />';
 
-            $error = '<strong>W3 Total Cache error:</strong> ' .
+            $error = '<strong>WP Total Cache error:</strong> ' .
                 'It appears Page Cache ' . 
                 '<acronym title="Uniform Resource Locator">URL</acronym> ' .
                 'rewriting is not working. ';
@@ -366,8 +366,8 @@ class W3_PgCacheAdminEnvironment {
      * @return string Addon required for plugin in wp-config
      **/
     private function wp_config_addon() {
-        return "/** Enable W3 Total Cache */\r\n" .
-            "define('WP_CACHE', true); // Added by W3 Total Cache\r\n";
+        return "/** Enable WP Total Cache */\r\n" .
+            "define('WP_CACHE', true); // Added by WP Total Cache\r\n";
     }
 
     /**
@@ -380,7 +380,7 @@ class W3_PgCacheAdminEnvironment {
      */
     private function wp_config_remove_from_content($config_data) {
         $config_data = preg_replace(
-            "~\\/\\*\\* Enable W3 Total Cache \\*\\*?\\/.*?\\/\\/ Added by W3 Total Cache(\r\n)*~s", 
+            "~\\/\\*\\* Enable WP Total Cache \\*\\*?\\/.*?\\/\\/ Added by WP Total Cache(\r\n)*~s", 
             '', $config_data);
         $config_data = preg_replace(
             "~(\\/\\/\\s*)?define\\s*\\(\\s*['\"]?WP_CACHE['\"]?\\s*,.*?\\)\\s*;+\\r?\\n?~is", 

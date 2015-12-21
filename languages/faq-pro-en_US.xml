@@ -63,8 +63,8 @@
             <ol>
             <li>Add new CNAME recored for example.com that points to the Domain Name that belongs to the distribution you created previously.
             </ol>
-            <p>How to configure W3 Total Cache:</p>
-            <p>There are two methods to configure W3 Total Cache CDN. Origin Pull "CloudFront" or "Generic mirror". If you want to be able to invalidate URLs from within WordPress you need to use the CloudFront option.
+            <p>How to configure WP Total Cache:</p>
+            <p>There are two methods to configure WP Total Cache CDN. Origin Pull "CloudFront" or "Generic mirror". If you want to be able to invalidate URLs from within WordPress you need to use the CloudFront option.
             If you do not configure an CDN the wrong URLs will be used when linking to CSS, JS and other files.
             </p>
             <p>Configure CloudFront:</p>

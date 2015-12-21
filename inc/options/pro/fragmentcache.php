@@ -91,7 +91,7 @@
                     <textarea id="fragmentcache_groups" name="fragmentcache.groups"
                         <?php $this->sealing_disabled('fragmentcache') ?>
                               cols="40" rows="5"><?php echo esc_textarea(implode("\r\n", $this->_config->get_array('fragmentcache.groups'))); ?></textarea><br />
-                    <span class="description"><?php _e('Specify fragment groups that should be managed by W3 Total Cache. Enter one action per line comma delimited, e.g. (group, action1, action2). Include the prefix used for a transient by a theme or plugin.', 'w3-total-cache'); ?></span>
+                    <span class="description"><?php _e('Specify fragment groups that should be managed by WP Total Cache. Enter one action per line comma delimited, e.g. (group, action1, action2). Include the prefix used for a transient by a theme or plugin.', 'w3-total-cache'); ?></span>
                 </td>
             </tr>
         </table>

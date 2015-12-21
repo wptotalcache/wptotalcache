@@ -1,6 +1,6 @@
 <?php
 /**
- * W3 Total Cache APC
+ * WP Total Cache APC
  */
 
 if (!defined('ABSPATH')) {
@@ -18,7 +18,7 @@ if (!defined('W3TC_DIR')) {
 
 if (!@is_dir(W3TC_DIR) || !file_exists(W3TC_DIR . '/inc/define.php')) {
     @header('X-Robots-Tag: noarchive, noodp, nosnippet');
-    echo(sprintf('<strong>W3 Total Cache Error:</strong> some files appear to be missing or out of place. Please re-install plugin or remove <strong>%s</strong>.', dirname(__FILE__)));
+    echo(sprintf('<strong>WP Total Cache Error:</strong> some files appear to be missing or out of place. Please re-install plugin or remove <strong>%s</strong>.', dirname(__FILE__)));
 }
 
 w3_require_once(W3TC_LIB_W3_DIR . '/Request.php');

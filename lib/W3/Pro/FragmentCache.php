@@ -599,7 +599,7 @@ class W3_Pro_FragmentCache {
      * @return string
      */
     function _get_debug_info() {
-        $debug_info = "<!-- W3 Total Cache: Fragment Cache debug info:\r\n";
+        $debug_info = "<!-- WP Total Cache: Fragment Cache debug info:\r\n";
         $debug_info .= sprintf("%s%s\r\n", str_pad('Engine: ', 20), w3_get_engine_name($this->_config->get_string('fragmentcache.engine')));
         $debug_info .= sprintf("%s%s\r\n", str_pad('Caching: ', 20), ($this->_caching ? 'enabled' : 'disabled'));
 

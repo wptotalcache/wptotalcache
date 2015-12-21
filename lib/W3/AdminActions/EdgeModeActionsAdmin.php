@@ -60,8 +60,8 @@ class W3_AdminActions_EdgeModeActionsAdmin {
      * @return string Addon required for plugin in wp-config
      **/
     private function wp_config_evaluation_mode() {
-        return "/** Enable W3 Total Cache Edge Mode */\r\n" .
-        "define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache\r\n";
+        return "/** Enable WP Total Cache Edge Mode */\r\n" .
+        "define('W3TC_EDGE_MODE', true); // Added by WP Total Cache\r\n";
     }
 
     /**
@@ -74,7 +74,7 @@ class W3_AdminActions_EdgeModeActionsAdmin {
      */
     private function wp_config_evaluation_mode_remove_from_content($config_data) {
         $config_data = preg_replace(
-            "~\\/\\*\\* Enable W3 Total Cache Edge Mode \\*\\*?\\/.*?\\/\\/ Added by W3 Total Cache(\r\n)*~s",
+            "~\\/\\*\\* Enable WP Total Cache Edge Mode \\*\\*?\\/.*?\\/\\/ Added by WP Total Cache(\r\n)*~s",
             '', $config_data);
         $config_data = preg_replace(
             "~(\\/\\/\\s*)?define\\s*\\(\\s*['\"]?W3TC_EDGE_MODE['\"]?\\s*,.*?\\)\\s*;+\\r?\\n?~is",

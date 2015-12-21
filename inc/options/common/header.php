@@ -11,7 +11,7 @@ $licensing_visible = ((!w3_is_multisite() || is_network_admin()) &&
 
 <?php do_action('w3tc-dashboard-head') ?>
 <div class="wrap" id="w3tc">
-    <h2 class="logo"><?php _e('W3 Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>', 'w3-total-cache'); ?></h2>
+    <h2 class="logo"><?php _e('WP Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>', 'w3-total-cache'); ?></h2>
 <?php if (!(w3_is_pro($this->_config) || w3_is_enterprise($this->_config))): ?>
     <?php include W3TC_INC_OPTIONS_DIR . '/edd/buy.php' ?>
 <?php endif ?>

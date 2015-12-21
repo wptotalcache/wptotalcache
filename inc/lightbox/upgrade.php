@@ -4,7 +4,7 @@
     <header>
         <div>
         <div class="left" style="float:left">
-            <h2>W3 Total Cache Pro unlocks more performance options for any website:</h2>
+            <h2>WP Total Cache Pro unlocks more performance options for any website:</h2>
         </div>
         <div class="right" style="float:right">
             <h2>only $99 <span>/year</span></h2>

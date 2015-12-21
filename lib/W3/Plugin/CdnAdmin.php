@@ -1,7 +1,7 @@
 <?php
 
 /**
- * W3 Total Cache CDN Plugin
+ * WP Total Cache CDN Plugin
  */
 if (!defined('W3TC')) {
     die();

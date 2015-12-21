@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: W3 Total Cache\n"
+"Project-Id-Version: WP Total Cache\n"
 "POT-Creation-Date: 2014-03-03 12:04+0100\n"
 "PO-Revision-Date: 2014-03-03 12:04+0100\n"
 "Last-Translator: \n"
@@ -402,7 +402,7 @@ msgstr ""
 
 #: extensions/WordPressSEOAdmin.php:66
 msgid ""
-"Configures W3 Total Cache to comply with WordPress SEO requirements "
+"Configures WP Total Cache to comply with WordPress SEO requirements "
 "automatically."
 msgstr ""
 
@@ -507,7 +507,7 @@ msgstr ""
 #: inc/functions/activation.php:776
 #, php-format
 msgid ""
-"<strong>W3 Total Cache Error:</strong>\n"
+"<strong>WP Total Cache Error:</strong>\n"
 "\t\t                    Files and directories could not be automatically\n"
 "\t\t                    deleted.\n"
 "\t\t                    <table>\n"
@@ -519,7 +519,7 @@ msgid ""
 "\t\t                    </tr>\n"
 "\t\t                    <tr>\n"
 "\t\t                    <td>or use FTP form to allow\n"
-"\t\t                    <strong>W3 Total Cache</strong> make it "
+"\t\t                    <strong>WP Total Cache</strong> make it "
 "automatically.\n"
 "\t\t                    </td>\n"
 "\t\t                    <td>\n"
@@ -553,7 +553,7 @@ msgstr ""
 #: inc/functions/extensions.php:255
 #, php-format
 msgid ""
-"Your site meets the criteria for the %s extension for W3 Total Cache. <a "
+"Your site meets the criteria for the %s extension for WP Total Cache. <a "
 "class=\"button\" href=\"%s\">Click here</a> to activate it. %s"
 msgstr ""
 
@@ -1020,7 +1020,7 @@ msgstr ""
 
 #: inc/lightbox/support_us.php:36
 msgid ""
-"We noticed you've been using W3 Total cache for at least 30 days, please "
+"We noticed you've been using WP Total Cache for at least 30 days, please "
 "help us improve WordPress:"
 msgstr ""
 
@@ -1244,7 +1244,7 @@ msgstr ""
 #: inc/options/browsercache.php:61 lib/W3/UI/Settings/BrowserCache.php:20
 #: lib/W3/UI/Settings/BrowserCache.php:30
 #: lib/W3/UI/Settings/BrowserCache.php:38
-msgid "Set W3 Total Cache header"
+msgid "Set WP Total Cache header"
 msgstr ""
 
 #: inc/options/browsercache.php:62 inc/options/browsercache.php:182
@@ -2069,7 +2069,7 @@ msgid "Test S3 upload"
 msgstr ""
 
 #: inc/options/common/header.php:14
-msgid "W3 Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>"
+msgid "WP Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>"
 msgstr ""
 
 #: inc/options/common/header.php:27 inc/options/common/header.php:46
@@ -4086,7 +4086,7 @@ msgstr ""
 
 #: inc/options/pro/fragmentcache.php:94
 msgid ""
-"Specify fragment groups that should be managed by W3 Total Cache. Enter one "
+"Specify fragment groups that should be managed by WP Total Cache. Enter one "
 "action per line comma delimited, e.g. (group, action1, action2). Include the "
 "prefix used for a transient by a theme or plugin."
 msgstr ""
@@ -4792,7 +4792,7 @@ msgstr ""
 
 #: lib/NetDNA/NetDNA.php:341
 #, php-format
-msgid "Zone for %s was created by W3 Total Cache"
+msgid "Zone for %s was created by WP Total Cache"
 msgstr ""
 
 #: lib/NetDNA/NetDNAPresentation.php:63
@@ -4970,7 +4970,7 @@ msgid "You do not have the rights to perform this action."
 msgstr ""
 
 #: lib/W3/AdminActions/DefaultActionsAdmin.php:685
-msgid "Added by W3 Total Cache"
+msgid "Added by WP Total Cache"
 msgstr ""
 
 #: lib/W3/AdminActions/SupportActionsAdmin.php:65
@@ -5032,7 +5032,7 @@ msgstr ""
 
 #: lib/W3/AdminCompatibility.php:90
 msgid ""
-"The following plugins are not compatible with W3 Total Cache and will cause "
+"The following plugins are not compatible with WP Total Cache and will cause "
 "unintended results:"
 msgstr ""
 
@@ -5317,7 +5317,7 @@ msgstr ""
 #: lib/W3/DbCacheAdminEnvironment.php:113
 #, php-format
 msgid ""
-"The Database add-in file db.php is not a W3 Total Cache drop-in.\n"
+"The Database add-in file db.php is not a WP Total Cache drop-in.\n"
 "                    Remove it or disable Database Caching. %s"
 msgstr ""
 
@@ -5338,7 +5338,7 @@ msgstr ""
 #: lib/W3/GenericAdminEnvironment.php:101
 #, php-format
 msgid ""
-"The Page Cache add-in file advanced-cache.php is not a W3 Total Cache drop-"
+"The Page Cache add-in file advanced-cache.php is not a WP Total Cache drop-"
 "in.\n"
 "                    It should be removed. %s"
 msgstr ""
@@ -5350,7 +5350,7 @@ msgstr ""
 
 #: lib/W3/Licensing.php:86
 #, php-format
-msgid "The W3 Total Cache license key has expired. Please renew it: %s"
+msgid "The WP Total Cache license key has expired. Please renew it: %s"
 msgstr ""
 
 #: lib/W3/Licensing.php:87
@@ -5358,7 +5358,7 @@ msgid "Renew"
 msgstr ""
 
 #: lib/W3/Licensing.php:90
-msgid "The W3 Total Cache license key you entered is not valid."
+msgid "The WP Total Cache license key you entered is not valid."
 msgstr ""
 
 #: lib/W3/Licensing.php:92
@@ -5366,15 +5366,15 @@ msgid "Please enter it again."
 msgstr ""
 
 #: lib/W3/Licensing.php:95
-msgid "The W3 Total Cache license key is not active."
+msgid "The WP Total Cache license key is not active."
 msgstr ""
 
 #: lib/W3/Licensing.php:98
-msgid "The W3 Total Cache license key is not active for this site."
+msgid "The WP Total Cache license key is not active for this site."
 msgstr ""
 
 #: lib/W3/Licensing.php:107
-msgid "The W3 Total Cache license key can't be verified."
+msgid "The WP Total Cache license key can't be verified."
 msgstr ""
 
 #: lib/W3/Licensing.php:117
@@ -5382,11 +5382,11 @@ msgid "check again"
 msgstr ""
 
 #: lib/W3/Licensing.php:123
-msgid "The W3 Total Cache license key is deactivated for this site."
+msgid "The WP Total Cache license key is deactivated for this site."
 msgstr ""
 
 #: lib/W3/Licensing.php:127
-msgid "The W3 Total Cache license key is activated for this site."
+msgid "The WP Total Cache license key is activated for this site."
 msgstr ""
 
 #: lib/W3/Menus.php:43 lib/W3/Menus.php:44
@@ -5501,7 +5501,7 @@ msgstr ""
 #: lib/W3/ObjectCacheAdminEnvironment.php:113
 #, php-format
 msgid ""
-"The Object Cache add-in file object-cache.php is not a W3 Total Cache drop-"
+"The Object Cache add-in file object-cache.php is not a WP Total Cache drop-"
 "in.\n"
 "                    Remove it or disable Object Caching. %s"
 msgstr ""
@@ -5603,7 +5603,7 @@ msgstr ""
 #: lib/W3/Plugin/NotificationsAdmin.php:94
 #, php-format
 msgid ""
-"<p>You can now keep W3 Total Cache up-to-date without having to worry about "
+"<p>You can now keep WP Total Cache up-to-date without having to worry about "
 "new features breaking your website. There will be more releases with bug "
 "fixes, security fixes and settings updates. </p>\n"
 "        <p>Also, you can now try out our new features as soon as they're "
@@ -6375,7 +6375,7 @@ msgstr ""
 #: lib/W3/UI/PluginView.php:446
 #, php-format
 msgid ""
-"<strong>W3 Total Cache Error:</strong> The plugin tried to edit, %s, but "
+"<strong>WP Total Cache Error:</strong> The plugin tried to edit, %s, but "
 "failed.\n"
 "\t\t\t\t\t\t\t\tFiles and directories cannot be modified. Please review "
 "your\n"

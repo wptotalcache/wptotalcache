@@ -110,7 +110,7 @@ class W3_ObjectCacheAdminEnvironment {
                 $remove_url = w3_admin_url($url . 'w3tc_default_remove_add_in=objectcache');
 
                 throw new FilesystemOperationException(
-                    sprintf(__('The Object Cache add-in file object-cache.php is not a W3 Total Cache drop-in.
+                    sprintf(__('The Object Cache add-in file object-cache.php is not a WP Total Cache drop-in.
                     Remove it or disable Object Caching. %s', 'w3-total-cache'),
                     w3tc_button_link(__('Yes, remove it for me', 'w3-total-cache'), wp_nonce_url($remove_url,'w3tc'))));
             }

@@ -7,7 +7,7 @@
  */
 function w3_get_notification_box($message, $id = '') {
     if (!isset($_GET['page']) || (isset($_GET['page']) && substr($_GET['page'], 0, 5) != 'w3tc_'))
-        $logo = sprintf('<img src="%s" alt="W3 Total Cache" style="height:30px" />"', plugins_url('/pub/img/W3TC_dashboard_logo_title.png', W3TC_FILE) .  '');
+        $logo = sprintf('<img src="%s" alt="WP Total Cache" style="height:30px" />"', plugins_url('/pub/img/W3TC_dashboard_logo_title.png', W3TC_FILE) .  '');
     else
         $logo = '';
     return sprintf('<div %s class="updated fade">%s</div>', $id? "id=\"$id\"" : '' ,$logo . $message);
@@ -30,7 +30,7 @@ function w3_e_notification_box($message, $id = '') {
  */
 function w3_get_error_box($message, $id = '') {
     if (!isset($_GET['page']) || (isset($_GET['page']) && substr($_GET['page'], 0, 5) != 'w3tc_'))
-        $logo = sprintf('<img src="%s" alt="W3 Total Cache" style="height:30px" />', plugins_url('/pub/img/W3TC_dashboard_logo_title.png', W3TC_FILE) .  '');
+        $logo = sprintf('<img src="%s" alt="WP Total Cache" style="height:30px" />', plugins_url('/pub/img/W3TC_dashboard_logo_title.png', W3TC_FILE) .  '');
     else
         $logo = '';
     return sprintf('<div %s class="error">%s</div>', $id? "id=\"$id\"" : '' ,$logo . $message);

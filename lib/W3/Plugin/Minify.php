@@ -806,7 +806,7 @@ class W3_Plugin_Minify extends W3_Plugin {
      * @return string
      */
     function get_debug_info() {
-        $debug_info = "<!-- W3 Total Cache: Minify debug info:\r\n";
+        $debug_info = "<!-- WP Total Cache: Minify debug info:\r\n";
         $debug_info .= sprintf("%s%s\r\n", str_pad('Engine: ', 20), w3_get_engine_name($this->_config->get_string('minify.engine')));
         $debug_info .= sprintf("%s%s\r\n", str_pad('Theme: ', 20), $this->get_theme());
         $debug_info .= sprintf("%s%s\r\n", str_pad('Template: ', 20), $this->get_template());

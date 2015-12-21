@@ -755,7 +755,7 @@ class W3_Minify {
 
         @set_time_limit($this->_config->get_integer('timelimit.email_send'));
 
-        $result = @wp_mail($to_email, 'W3 Total Cache Error Notification', $body, implode("\n", $headers));
+        $result = @wp_mail($to_email, 'WP Total Cache Error Notification', $body, implode("\n", $headers));
 
         return $result;
     }

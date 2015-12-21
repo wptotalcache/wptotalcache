@@ -253,7 +253,7 @@ function w3_e_extension_activation_notification($extension_name, $extension_id) 
     $page = w3tc_get_current_page();
     printf(
         w3_get_notification_box('<p>' . 
-            __('It appears that activating the <a href="%s">%s</a> extension for W3 Total Cache will be helpful for your site. <a class="button" href="%s">Click here</a> to try it. %s', 'w3-total-cache') . '</p>', $extension_id)
+            __('It appears that activating the <a href="%s">%s</a> extension for WP Total Cache will be helpful for your site. <a class="button" href="%s">Click here</a> to try it. %s', 'w3-total-cache') . '</p>', $extension_id)
         , sprintf(w3_admin_url('admin.php?page=w3tc_extensions#%s'), $extension_id)
         , $extension_name
         , sprintf(w3_admin_url('admin.php?page='. $page .'&w3tc_extensions_activate=%s'), $extension_id)

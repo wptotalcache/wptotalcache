@@ -83,19 +83,19 @@ class W3_Licensing extends W3_Plugin {
         w3_require_once(W3TC_INC_FUNCTIONS_DIR . '/ui.php');
         switch($status) {
             case 'expired':
-                $message = sprintf(__('The W3 Total Cache license key has expired. Please renew it: %s', 'w3-total-cache'),
+                $message = sprintf(__('The WP Total Cache license key has expired. Please renew it: %s', 'w3-total-cache'),
                     '<input type="button" class="button-primary button-buy-plugin {nonce: \''. wp_create_nonce('w3tc').'\'}" value="'.__('Renew', 'w3-total-cache') . '" />' );
                 break;
             case 'invalid':
-                $message = __('The W3 Total Cache license key you entered is not valid.', 'w3-total-cache') .
+                $message = __('The WP Total Cache license key you entered is not valid.', 'w3-total-cache') .
                 '<a href="' . (is_network_admin() ? network_admin_url('admin.php?page=w3tc_general#licensing'):
                     admin_url('admin.php?page=w3tc_general#licensing')) . '"> ' . __('Please enter it again.', 'w3-total-cache') . '</a>';
                 break;
             case 'inactive':
-                $message = __('The W3 Total Cache license key is not active.', 'w3-total-cache');
+                $message = __('The WP Total Cache license key is not active.', 'w3-total-cache');
                 break;
             case 'site_inactive':
-                $message = __('The W3 Total Cache license key is not active for this site.', 'w3-total-cache');
+                $message = __('The WP Total Cache license key is not active for this site.', 'w3-total-cache');
                 break;
             case 'valid':
                 break;
@@ -104,7 +104,7 @@ class W3_Licensing extends W3_Plugin {
             case 'no_key':
                 break;
             default:
-                $message = __('The W3 Total Cache license key can\'t be verified.', 'w3-total-cache');
+                $message = __('The WP Total Cache license key can\'t be verified.', 'w3-total-cache');
                 $transient_timeout = 60;
                 break;
         }
@@ -120,11 +120,11 @@ class W3_Licensing extends W3_Plugin {
 
 
         if ($this->site_inactivated) {
-            w3_e_error_box("<p>" . __('The W3 Total Cache license key is deactivated for this site.', 'w3-total-cache') ."</p>");
+            w3_e_error_box("<p>" . __('The WP Total Cache license key is deactivated for this site.', 'w3-total-cache') ."</p>");
         }
 
         if ($this->site_activated) {
-            w3_e_error_box("<p>" . __('The W3 Total Cache license key is activated for this site.', 'w3-total-cache') ."</p>");
+            w3_e_error_box("<p>" . __('The WP Total Cache license key is activated for this site.', 'w3-total-cache') ."</p>");
         }
     }
 

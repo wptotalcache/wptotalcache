@@ -58,7 +58,7 @@
             <tr>
                 <th colspan="2">
                     <label><input id="browsercache_w3tc" type="checkbox" name="w3tc"
-                        <?php $this->sealing_disabled('browsercache') ?> value="1" <?php checked($browsercache_w3tc, true); ?> /> <?php _e('Set W3 Total Cache header', 'w3-total-cache'); ?></label>
+                        <?php $this->sealing_disabled('browsercache') ?> value="1" <?php checked($browsercache_w3tc, true); ?> /> <?php _e('Set WP Total Cache header', 'w3-total-cache'); ?></label>
                     <br /><span class="description"><?php _e('Set this header to assist in identifying optimized files.', 'w3-total-cache'); ?></span>
                 </th>
             </tr>

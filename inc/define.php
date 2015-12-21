@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 
 define('W3TC', true);
 define('W3TC_VERSION', '0.9.4.1');
-define('W3TC_POWERED_BY', 'W3 Total Cache/' . W3TC_VERSION);
+define('W3TC_POWERED_BY', 'WP Total Cache/' . W3TC_VERSION);
 define('W3TC_EMAIL', 'w3tc@w3-edge.com');
 define('W3TC_TEXT_DOMAIN', 'w3-total-cache');
 define('W3TC_PAYPAL_URL', 'https://www.paypal.com/cgi-bin/webscr');
@@ -29,7 +29,7 @@ if (!defined('EDD_W3EDGE_STORE_URL')) define('EDD_W3EDGE_STORE_URL', 'https://ww
 if (!defined('EDD_W3EDGE_STORE_URL_PLUGIN')) define('EDD_W3EDGE_STORE_URL_PLUGIN', 'https://www.w3-edge.com/?w3tc_buy_pro_plugin' );
 
 // the name of your product. This should match the download name in EDD exactly
-define('EDD_W3EDGE_W3TC_NAME', 'W3 Total Cache Pro: Annual Subscription');
+define('EDD_W3EDGE_W3TC_NAME', 'WP Total Cache Pro: Annual Subscription');
 
 define('W3TC_WIN', (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN'));
 

@@ -539,7 +539,7 @@ class W3_DbCache extends W3_DbProcessor {
      * @return string
      */
     function _get_debug_info() {
-        $debug_info = "<!-- W3 Total Cache: Db cache debug info:\r\n";
+        $debug_info = "<!-- WP Total Cache: Db cache debug info:\r\n";
         $debug_info .= sprintf("%s%s\r\n", str_pad('Engine: ', 20), w3_get_engine_name($this->_config->get_string('dbcache.engine')));
         $debug_info .= sprintf("%s%d\r\n", str_pad('Total queries: ', 20), $this->query_total);
         $debug_info .= sprintf("%s%d\r\n", str_pad('Cached queries: ', 20), $this->query_hits);
