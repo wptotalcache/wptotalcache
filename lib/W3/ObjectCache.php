@@ -628,7 +628,7 @@ class W3_ObjectCache {
      * @return string
      */
     function _get_debug_info() {
-        $debug_info = "<!-- W3 Total Cache: Object Cache debug info:\r\n";
+        $debug_info = "<!-- WP Total Cache: Object Cache debug info:\r\n";
         $debug_info .= sprintf("%s%s\r\n", str_pad('Engine: ', 20), w3_get_engine_name($this->_config->get_string('objectcache.engine')));
         $debug_info .= sprintf("%s%s\r\n", str_pad('Caching: ', 20), ($this->_caching ? 'enabled' : 'disabled'));
 

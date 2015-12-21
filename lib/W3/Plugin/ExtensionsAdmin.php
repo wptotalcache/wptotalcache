@@ -1,7 +1,7 @@
 <?php
 
 /**
- * W3 Total Cache ExtensionsAdmin plugin
+ * WP Total Cache ExtensionsAdmin plugin
  */
 if (!defined('W3TC')) {
     die();

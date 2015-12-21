@@ -598,7 +598,7 @@ jQuery(function() {
     });
 
     jQuery('.button-tweet').live('click', function() {
-        window.open('http://twitter.com/?status=' + encodeURIComponent('YES! I optimized my #wordpress site\'s #performance using the W3 Total Cache #WPO #plugin by @w3edge. Check it out! http://j.mp/A69xX'), '_blank');
+        window.open('http://twitter.com/?status=' + encodeURIComponent('YES! I optimized my #wordpress site\'s #performance using the WP Total Cache #WPO #plugin by @w3edge. Check it out! http://j.mp/A69xX'), '_blank');
     });
 
     jQuery('#common_support').change(function() {

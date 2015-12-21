@@ -63,7 +63,7 @@ class W3_WordPressSEOAdmin {
         $extensions['wordpress-seo'] = array (
             'name' => 'WordPress SEO by Yoast',
             'author' => 'W3 EDGE',
-            'description' => __('Configures W3 Total Cache to comply with WordPress SEO requirements automatically.', 'w3-total-cache'),
+            'description' => __('Configures WP Total Cache to comply with WordPress SEO requirements automatically.', 'w3-total-cache'),
 
             'author uri' => 'http://www.w3-edge.com/',
             'extension uri' => 'http://www.w3-edge.com/',

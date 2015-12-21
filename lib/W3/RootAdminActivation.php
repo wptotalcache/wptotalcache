@@ -1,7 +1,7 @@
 <?php
 
 /**
- * W3 Total Cache plugin
+ * WP Total Cache plugin
  */
 if (!defined('W3TC')) {
     die();
@@ -33,7 +33,7 @@ class W3_RootAdminActivation {
                 // workaround for error_scrape page called after error
                 // really we are in network activation and going to throw some error
             } else {
-                echo 'Please <a href="' . network_admin_url('plugins.php') . '">network activate</a> W3 Total Cache when using WordPress Multisite.';
+                echo 'Please <a href="' . network_admin_url('plugins.php') . '">network activate</a> WP Total Cache when using WordPress Multisite.';
                 die;
             }
         }
@@ -95,7 +95,7 @@ class W3_RootAdminActivation {
                     'margin: 10px 30px 10px 30px; ' . 
                     'padding: 10px;';
 
-                $error = '<strong>W3 Total Cache Error:</strong> ' .
+                $error = '<strong>WP Total Cache Error:</strong> ' .
                     'Files and directories could not be automatically ' .
                     'removed to complete the deactivation. ' .
                     '<br />Please execute commands manually:<br />' .

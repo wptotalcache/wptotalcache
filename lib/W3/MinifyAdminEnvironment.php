@@ -242,7 +242,7 @@ class W3_MinifyAdminEnvironment {
                 $result . '<br />';
             $tech_message .= 'instead of "OK" response. <br />';
 
-            $error = '<strong>W3 Total Cache error:</strong>It appears Minify ' . 
+            $error = '<strong>WP Total Cache error:</strong>It appears Minify ' . 
                 '<acronym title="Uniform Resource Locator">URL</acronym> ' .
                 'rewriting is not working. ';
 

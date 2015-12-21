@@ -773,7 +773,7 @@ function w3_deactivate_plugin() {
             $ftp_form = str_replace('</fieldset>', '', $ftp_form);
             $ftp_form = str_replace('id="upgrade" class="button"',
                 'id="upgrade" class="button w3tc-button-save"', $ftp_form);
-            $error = sprintf( __('<strong>W3 Total Cache Error:</strong>
+            $error = sprintf( __('<strong>WP Total Cache Error:</strong>
 		                    Files and directories could not be automatically
 		                    deleted.
 		                    <table>
@@ -785,7 +785,7 @@ function w3_deactivate_plugin() {
 		                    </tr>
 		                    <tr>
 		                    <td>or use FTP form to allow
-		                    <strong>W3 Total Cache</strong> make it automatically.
+		                    <strong>WP Total Cache</strong> make it automatically.
 		                    </td>
 		                    <td>
 								%s

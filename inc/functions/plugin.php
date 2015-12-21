@@ -1,7 +1,7 @@
 <?php
 
 /**
- * W3 Total Cache plugins API
+ * WP Total Cache plugins API
  */
 
 /**
@@ -368,7 +368,7 @@ function w3tc_fragmentcache_end($id, $group = '', $debug = false) {
     if (w3tc_is_caching_fragment($id, $group)) {
         $content = ob_get_contents();
         if ($debug)
-            $content = sprintf("\r\n".'<!-- fragment start (%s%s)-->'."\r\n".'%s'."\r\n".'<!-- fragment end (%1$s%2$s) cached at %s by W3 Total Cache expires in %d seconds -->'."\r\n", $group, $id,$content, date_i18n('Y-m-d H:i:s'), 1000);
+            $content = sprintf("\r\n".'<!-- fragment start (%s%s)-->'."\r\n".'%s'."\r\n".'<!-- fragment end (%1$s%2$s) cached at %s by WP Total Cache expires in %d seconds -->'."\r\n", $group, $id,$content, date_i18n('Y-m-d H:i:s'), 1000);
         w3tc_fragmentcache_store($id, $group, $content);
         ob_end_flush();
     }

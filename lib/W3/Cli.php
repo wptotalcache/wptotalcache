@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The W3 Total Cache plugin
+ * The WP Total Cache plugin
  *
  * @package wp-cli
  * @subpackage commands/third-party

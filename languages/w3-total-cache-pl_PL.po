@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: W3 Total Cache\n"
+"Project-Id-Version: WP Total Cache\n"
 "POT-Creation-Date: 2013-07-13 13:29+0100\n"
 "PO-Revision-Date: 2013-07-13 13:29+0100\n"
 "Last-Translator: Andreas Nurbo <andreas@cyonitesystems.com>\n"
@@ -107,7 +107,7 @@ msgstr ""
 #: inc/functions/activation.php:776
 #, php-format
 msgid ""
-"<strong>W3 Total Cache Error:</strong>\n"
+"<strong>WP Total Cache Error:</strong>\n"
 "\t\t                    Files and directories could not be automatically\n"
 "\t\t                    deleted.\n"
 "\t\t                    <table>\n"
@@ -119,7 +119,7 @@ msgid ""
 "\t\t                    </tr>\n"
 "\t\t                    <tr>\n"
 "\t\t                    <td>or use FTP form to allow\n"
-"\t\t                    <strong>W3 Total Cache</strong> make it "
+"\t\t                    <strong>WP Total Cache</strong> make it "
 "automatically.\n"
 "\t\t                    </td>\n"
 "\t\t                    <td>\n"
@@ -580,7 +580,7 @@ msgstr ""
 
 #: inc/lightbox/support_us.php:4
 msgid ""
-"We noticed you've been using W3 Total cache for at least 30 days, please "
+"We noticed you've been using WP Total Cache for at least 30 days, please "
 "help us improe WordPress:"
 msgstr ""
 
@@ -833,7 +833,7 @@ msgstr ""
 
 #: inc/options/browsercache.php:61 inc/options/browsercache.php:181
 #: inc/options/browsercache.php:271 inc/options/browsercache.php:347
-msgid "Set W3 Total Cache header"
+msgid "Set WP Total Cache header"
 msgstr ""
 
 #: inc/options/browsercache.php:62 inc/options/browsercache.php:182
@@ -3985,7 +3985,7 @@ msgid "Add CNAME"
 msgstr ""
 
 #: inc/options/common/header.php:11
-msgid "W3 Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>"
+msgid "WP Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>"
 msgstr ""
 
 #: inc/options/common/header.php:22 inc/options/common/header.php:41
@@ -4071,15 +4071,15 @@ msgid "Save settings"
 msgstr ""
 
 #: inc/options/extensions/custom.php:20
-msgid "No custom W3 Total Cache extensions"
+msgid "No custom WP Total Cache extensions"
 msgstr ""
 
 #: inc/options/extensions/plugins.php:20
-msgid "No plugins have W3 Total Cache extensions"
+msgid "No plugins have WP Total Cache extensions"
 msgstr ""
 
 #: inc/options/extensions/theme.php:23
-msgid "This theme does not have  W3 Total Cache extensions"
+msgid "This theme does not have  WP Total Cache extensions"
 msgstr ""
 
 #: inc/options/minify/ccjs2.php:8
@@ -5000,7 +5000,7 @@ msgstr ""
 
 #: lib/W3/AdminCompatibility.php:89
 msgid ""
-"The following plugins are not compatible with W3 Total Cache and will cause "
+"The following plugins are not compatible with WP Total Cache and will cause "
 "unintended results:"
 msgstr ""
 
@@ -5176,7 +5176,7 @@ msgstr ""
 #: lib/W3/DbCacheAdminEnvironment.php:109
 #, php-format
 msgid ""
-"The Database add-in file db.php is not a W3 Total Cache drop-in.\n"
+"The Database add-in file db.php is not a WP Total Cache drop-in.\n"
 "                    Remove it or disable Database Caching. %s"
 msgstr ""
 
@@ -5192,7 +5192,7 @@ msgstr ""
 #: lib/W3/GenericAdminEnvironment.php:97
 #, php-format
 msgid ""
-"The Page Cache add-in file advanced-cache.php is not a W3 Total Cache drop-"
+"The Page Cache add-in file advanced-cache.php is not a WP Total Cache drop-"
 "in.\n"
 "                    It should be removed. %s"
 msgstr ""
@@ -5314,7 +5314,7 @@ msgstr ""
 #: lib/W3/ObjectCacheAdminEnvironment.php:108
 #, php-format
 msgid ""
-"The Object Cache add-in file object-cache.php is not a W3 Total Cache drop-"
+"The Object Cache add-in file object-cache.php is not a WP Total Cache drop-"
 "in.\n"
 "                    Remove it or disable Object Caching. %s"
 msgstr ""
@@ -5455,7 +5455,7 @@ msgid "Database Cluster configuration file has been successfully saved"
 msgstr ""
 
 #: lib/W3/AdminActions/DefaultActionsAdmin.php:634
-msgid "Added by W3 Total Cache"
+msgid "Added by WP Total Cache"
 msgstr ""
 
 #: lib/W3/AdminActions/SupportActionsAdmin.php:58
@@ -6540,7 +6540,7 @@ msgstr ""
 #: lib/W3/UI/PluginView.php:449
 #, php-format
 msgid ""
-"<strong>W3 Total Cache Error:</strong> The plugin tried to edit, %s, but "
+"<strong>WP Total Cache Error:</strong> The plugin tried to edit, %s, but "
 "failed.\n"
 "\t\t\t\t\t\t\t\tFiles and directories cannot be modified. Please review "
 "your\n"

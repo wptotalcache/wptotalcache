@@ -161,7 +161,7 @@ class W3_GenesisAdmin {
             $message[] = 'Genesis Framework version >= 1.9.0';
 
         if (!$fc_enabled)
-            $message[] = 'Fragment Cache (W3 Total Cache Pro)';
+            $message[] = 'Fragment Cache (WP Total Cache Pro)';
 
         $extensions['genesis.theme'] = array (
             'name' => 'Genesis Framework',

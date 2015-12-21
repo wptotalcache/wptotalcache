@@ -1,7 +1,7 @@
 <?php
 
 /**
- * W3 Total Cache Admin plugin
+ * WP Total Cache Admin plugin
  */
 if (!defined('W3TC')) {
     die();
@@ -603,7 +603,7 @@ ul.w3tc-incomp-plugins li div{
                 $ftp_form = str_replace('id="upgrade" class="button"', 
                     'id="upgrade" class="button w3tc-button-save"', $ftp_form);
 
-                $error = '<strong>W3 Total Cache Error:</strong> ' .
+                $error = '<strong>WP Total Cache Error:</strong> ' .
                     'Files and directories could not be automatically ' .
                     'created to complete the installation. ' .
                     '<table>' .
@@ -616,7 +616,7 @@ ul.w3tc-incomp-plugins li div{
                     '</tr>' .
                     '<tr>' .
                     '<td>or use FTP form to allow ' . 
-                    '<strong>W3 Total Cache</strong> make it automatically.' . 
+                    '<strong>WP Total Cache</strong> make it automatically.' . 
                     '</td>' .
                     '<td>' . 
                     w3_button('Update via FTP', '', 'w3tc-show-ftp-form') .

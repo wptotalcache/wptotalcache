@@ -33,7 +33,7 @@
     <div class="content">
             <h3 class="font-palette-dark-skies"><?php _e('Support Us, It\'s Free!', 'w3-total-cache'); ?></h3>
 
-            <p><?php _e('We noticed you\'ve been using W3 Total cache for at least 30 days, please help us improve WordPress:', 'w3-total-cache'); ?></p>
+            <p><?php _e('We noticed you\'ve been using WP Total Cache for at least 30 days, please help us improve WordPress:', 'w3-total-cache'); ?></p>
             <ul>
                 <li>
                     <label>
@@ -51,7 +51,7 @@
                 <li>
                     <label>Send a tweet:<br />
                         <?php
-                        $tweet_url = 'http://twitter.com/home/?status=I use W3 Total Cache you should too, via @w3edge';
+                        $tweet_url = 'http://twitter.com/home/?status=I use WP Total Cache you should too, via @w3edge';
                         echo w3tc_action_button(__('Tell Your Friends', 'w3-total-cache'), $tweet_url, "btn w3tc-size image btn-default palette-twitter") ?>
                     </label>
                 </li>

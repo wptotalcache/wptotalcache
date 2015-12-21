@@ -338,7 +338,7 @@ class NetDNA {
             $name = substr($name, 0, $len);
         }
         if (is_null($label))
-            $label = sprintf(__('Zone for %s was created by W3 Total Cache', 'w3-total-cache'), $url);
+            $label = sprintf(__('Zone for %s was created by WP Total Cache', 'w3-total-cache'), $url);
         $zone_defaults['name'] = $name;
         $zone_defaults['label'] = $label;
         $zone_defaults['url'] = $url;

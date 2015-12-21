@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: W3 Total Cache\n"
+"Project-Id-Version: WP Total Cache\n"
 "POT-Creation-Date: 2013-07-13 13:29+0100\n"
 "PO-Revision-Date: 2013-07-13 13:29+0100\n"
 "Last-Translator: Anja Skrba <anjas@webhostinggeeks.com>\n"
@@ -125,7 +125,7 @@ msgstr "Izvršite sledeće komande u komandnom okruženju (shell-u):"
 #: ../inc/functions/activation.php:776
 #, fuzzy, php-format
 msgid ""
-"<strong>W3 Total Cache Error:</strong>\n"
+"<strong>WP Total Cache Error:</strong>\n"
 "\t\t                    Files and directories could not be automatically\n"
 "\t\t                    deleted.\n"
 "\t\t                    <table>\n"
@@ -137,7 +137,7 @@ msgid ""
 "\t\t                    </tr>\n"
 "\t\t                    <tr>\n"
 "\t\t                    <td>or use FTP form to allow\n"
-"\t\t                    <strong>W3 Total Cache</strong> make it "
+"\t\t                    <strong>WP Total Cache</strong> make it "
 "automatically.\n"
 "\t\t                    </td>\n"
 "\t\t                    <td>\n"
@@ -145,7 +145,7 @@ msgid ""
 "\t\t                    </td>\n"
 "\t\t                    </tr></table>"
 msgstr ""
-"<strong>Greška W3 Total Cache -a:</strong>\n"
+"<strong>Greška WP Total Cache -a:</strong>\n"
 "\t\t                    Fajlovi i direktorijumi nisu mogli da budu "
 "automatski\n"
 "\t\t                    obrisani.\n"
@@ -158,7 +158,7 @@ msgstr ""
 "\t\t                    </tr>\n"
 "\t\t                    <tr>\n"
 "\t\t                    <td>ili upotrebite FTP formu da dozvolite \n"
-"\t\t                    <strong>W3 Total Cache</strong> -u da ih izvrši "
+"\t\t                    <strong>WP Total Cache</strong> -u da ih izvrši "
 "automatski.\n"
 "\t\t                    </td>\n"
 "\t\t                    <td>\n"
@@ -650,10 +650,10 @@ msgstr "Podržite nas, besplatno je!"
 
 #: ../inc/lightbox/support_us.php:4
 msgid ""
-"We noticed you've been using W3 Total cache for at least 30 days, please "
+"We noticed you've been using WP Total Cache for at least 30 days, please "
 "help us improe WordPress:"
 msgstr ""
-"Primetili smo da koristite W3 Total cache već najmanje 30 dana, molimo "
+"Primetili smo da koristite WP Total Cache već najmanje 30 dana, molimo "
 "pomozite nam da unapredimo WordPress:"
 
 #: ../inc/lightbox/support_us.php:9
@@ -960,8 +960,8 @@ msgstr ""
 
 #: ../inc/options/browsercache.php:61 ../inc/options/browsercache.php:181
 #: ../inc/options/browsercache.php:271 ../inc/options/browsercache.php:347
-msgid "Set W3 Total Cache header"
-msgstr "Podesiti W3 Total Cache zaglavlje"
+msgid "Set WP Total Cache header"
+msgstr "Podesiti WP Total Cache zaglavlje"
 
 #: ../inc/options/browsercache.php:62 ../inc/options/browsercache.php:182
 #: ../inc/options/browsercache.php:272 ../inc/options/browsercache.php:348
@@ -4709,8 +4709,8 @@ msgid "Add CNAME"
 msgstr "Dodati CNAME"
 
 #: ../inc/options/common/header.php:11
-msgid "W3 Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>"
-msgstr "W3 Total Cache <span>od W3 EDGE <sup>&reg;</sup> -a</span>"
+msgid "WP Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>"
+msgstr "WP Total Cache <span>od W3 EDGE <sup>&reg;</sup> -a</span>"
 
 #: ../inc/options/common/header.php:22 ../inc/options/common/header.php:41
 msgid ""
@@ -4810,15 +4810,15 @@ msgstr "Sačuvati sva podešenja"
 
 #: ../inc/options/extensions/custom.php:20
 #, fuzzy
-msgid "No custom W3 Total Cache extensions"
-msgstr "Podesiti W3 Total Cache zaglavlje"
+msgid "No custom WP Total Cache extensions"
+msgstr "Podesiti WP Total Cache zaglavlje"
 
 #: ../inc/options/extensions/plugins.php:20
-msgid "No plugins have W3 Total Cache extensions"
+msgid "No plugins have WP Total Cache extensions"
 msgstr ""
 
 #: ../inc/options/extensions/theme.php:23
-msgid "This theme does not have  W3 Total Cache extensions"
+msgid "This theme does not have  WP Total Cache extensions"
 msgstr ""
 
 #: ../inc/options/minify/ccjs2.php:8
@@ -5651,7 +5651,7 @@ msgid ""
 "Cache."
 msgstr ""
 "MaxCDN je servis koji vam omogućava da svoj sajt ubrzate čak i više nego sa "
-"W3 Total Cache-om."
+"WP Total Cache-om."
 
 #: ../inc/widget/maxcdn_signup.php:9
 msgid "Sign up"
@@ -5802,10 +5802,10 @@ msgstr "Baza podataka"
 
 #: ../lib/W3/AdminCompatibility.php:89
 msgid ""
-"The following plugins are not compatible with W3 Total Cache and will cause "
+"The following plugins are not compatible with WP Total Cache and will cause "
 "unintended results:"
 msgstr ""
-"Sledeći dodaci nisu kompatibilni sa W3 Total Cache -om i izazvaće neželjene "
+"Sledeći dodaci nisu kompatibilni sa WP Total Cache -om i izazvaće neželjene "
 "posledice:"
 
 #: ../lib/W3/AdminCompatibility.php:95
@@ -5982,7 +5982,7 @@ msgstr "Korisnik je prijavljen"
 #: ../lib/W3/DbCacheAdminEnvironment.php:109
 #, php-format
 msgid ""
-"The Database add-in file db.php is not a W3 Total Cache drop-in.\n"
+"The Database add-in file db.php is not a WP Total Cache drop-in.\n"
 "                    Remove it or disable Database Caching. %s"
 msgstr ""
 
@@ -5999,7 +5999,7 @@ msgstr "Pročistiti iz keša"
 #: ../lib/W3/GenericAdminEnvironment.php:97
 #, php-format
 msgid ""
-"The Page Cache add-in file advanced-cache.php is not a W3 Total Cache drop-"
+"The Page Cache add-in file advanced-cache.php is not a WP Total Cache drop-"
 "in.\n"
 "                    It should be removed. %s"
 msgstr ""
@@ -6125,7 +6125,7 @@ msgstr "DONOTCACHEOBJECT konstanta je definisana"
 #: ../lib/W3/ObjectCacheAdminEnvironment.php:108
 #, php-format
 msgid ""
-"The Object Cache add-in file object-cache.php is not a W3 Total Cache drop-"
+"The Object Cache add-in file object-cache.php is not a WP Total Cache drop-"
 "in.\n"
 "                    Remove it or disable Object Caching. %s"
 msgstr ""
@@ -6278,8 +6278,8 @@ msgid "Database Cluster configuration file has been successfully saved"
 msgstr "Konfiguracioni fajl klastera baza podataka je uspešno snimljen."
 
 #: ../lib/W3/AdminActions/DefaultActionsAdmin.php:634
-msgid "Added by W3 Total Cache"
-msgstr "Dodato od W3 Total Cache-a"
+msgid "Added by WP Total Cache"
+msgstr "Dodato od WP Total Cache-a"
 
 #: ../lib/W3/AdminActions/SupportActionsAdmin.php:58
 #: ../lib/W3/UI/SupportAdminView.php:61
@@ -7523,7 +7523,7 @@ msgstr ""
 #: ../lib/W3/UI/PluginView.php:449
 #, php-format
 msgid ""
-"<strong>W3 Total Cache Error:</strong> The plugin tried to edit, %s, but "
+"<strong>WP Total Cache Error:</strong> The plugin tried to edit, %s, but "
 "failed.\n"
 "\t\t\t\t\t\t\t\tFiles and directories cannot be modified. Please review "
 "your\n"
@@ -7533,7 +7533,7 @@ msgid ""
 "different ownership or permissions.\n"
 "\t\t\t\t\t\t\t\t%s %s"
 msgstr ""
-"<strong>Greška W3 Total Cache -a:</strong> Dodatak je pokušao da uredi, %s, "
+"<strong>Greška WP Total Cache -a:</strong> Dodatak je pokušao da uredi, %s, "
 "ali nije uspeo.\n"
 "\t\t\t\t\t\t\t\tFajlovi i direktorijumi ne mogu da se izmene. Molim vas, "
 "pregledajte vaše\n"

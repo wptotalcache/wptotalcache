@@ -98,7 +98,7 @@ class W3_GenericAdminEnvironment {
                 $remove_url = w3_admin_url('admin.php?page=w3tc_dashboard&amp;w3tc_default_remove_add_in=pgcache');
 
                 $exs->push(new FilesystemOperationException(
-                    sprintf(__('The Page Cache add-in file advanced-cache.php is not a W3 Total Cache drop-in.
+                    sprintf(__('The Page Cache add-in file advanced-cache.php is not a WP Total Cache drop-in.
                     It should be removed. %s', 'w3-total-cache'),
                     w3tc_button_link(__('Yes, remove it for me', 'w3-total-cache'), wp_nonce_url($remove_url,'w3tc')))));
                 return;
@@ -195,7 +195,7 @@ class W3_GenericAdminEnvironment {
         $button = '<input type="button" class="button w3tc" ' .
             'value="save the settings" onclick="' . $onclick . '" />';
 
-        $exs->push(new SelfTestFailedException('<strong>W3 Total Cache:</strong> ' .
+        $exs->push(new SelfTestFailedException('<strong>WP Total Cache:</strong> ' .
             'Default settings are in use. The configuration file could ' .
             'not be read or doesn\'t exist. Please ' . $button . 
             ' to create the file.'));
@@ -216,7 +216,7 @@ class W3_GenericAdminEnvironment {
                 $config->validate_cache_actual();
             } catch (Exception $ex) {
                 $exs->push(new SelfTestFailedException(
-                    '<strong>W3 Total Cache Error:</strong> ' .
+                    '<strong>WP Total Cache Error:</strong> ' .
                     $ex->getMessage()));
             }
         }

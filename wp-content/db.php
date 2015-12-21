@@ -1,7 +1,7 @@
 <?php
 
 /**
- * W3 Total Cache Database module
+ * WP Total Cache Database module
  */
 if (!defined('ABSPATH')) {
     die();
@@ -18,7 +18,7 @@ if (!@is_dir(W3TC_DIR) || !file_exists(W3TC_DIR . '/inc/define.php')) {
     if (!defined('WP_ADMIN')) { // lets don't show error on front end
         require_once (ABSPATH . WPINC . '/wp-db.php');
     } else {
-        echo(sprintf('<strong>W3 Total Cache Error:</strong> some files appear to be missing or out of place. Please re-install plugin or remove <strong>%s</strong>.', __FILE__));
+        echo(sprintf('<strong>WP Total Cache Error:</strong> some files appear to be missing or out of place. Please re-install plugin or remove <strong>%s</strong>.', __FILE__));
     }
 } else {
     require_once W3TC_DIR . '/inc/define.php';
@@ -34,7 +34,7 @@ if (!@is_dir(W3TC_DIR) || !file_exists(W3TC_DIR . '/inc/define.php')) {
             if (file_exists($db_driver_path)) {
                 require_once $db_driver_path;
             } else {
-                die(sprintf('<strong>W3 Total Cache Error:</strong> database driver doesn\'t exist: %s.', $db_driver_path));
+                die(sprintf('<strong>WP Total Cache Error:</strong> database driver doesn\'t exist: %s.', $db_driver_path));
             }
         }
 

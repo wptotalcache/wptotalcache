@@ -87,7 +87,7 @@ class W3_AdminCompatibility extends W3_Plugin {
      */
     private function _custom_message($plugins) {
 
-        $message = __('The following plugins are not compatible with W3 Total Cache and will cause unintended results:', 'w3-total-cache');
+        $message = __('The following plugins are not compatible with WP Total Cache and will cause unintended results:', 'w3-total-cache');
         $plugin_names = array();
         foreach ($plugins as $plugin)  {
             $data = get_plugin_data(WP_PLUGIN_DIR . '/' . $plugin);

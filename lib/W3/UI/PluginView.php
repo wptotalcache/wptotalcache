@@ -443,7 +443,7 @@ abstract class W3_UI_PluginView {
 								 </li>', 'w3-total-cache');
             $tech_message .= '</ul>';
             $tech_message = '<div class="w3tc-technical-info" style="display:none">' . $tech_message . '</div>';
-            $w3tc_error[] = sprintf(__('<strong>W3 Total Cache Error:</strong> The plugin tried to edit, %s, but failed.
+            $w3tc_error[] = sprintf(__('<strong>WP Total Cache Error:</strong> The plugin tried to edit, %s, but failed.
 								Files and directories cannot be modified. Please review your
 								<a target="_blank" href="http://codex.wordpress.org/Changing_File_Permissions">
 								file permissions</a>. A common cause is %s and %s having different ownership or permissions.

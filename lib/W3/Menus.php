@@ -1,7 +1,7 @@
 <?php
 
 /**
- * W3 Total Cache Menus
+ * WP Total Cache Menus
  */
 if (!defined('W3TC')) {
     die();
@@ -136,7 +136,7 @@ class W3_Menus {
                 (!$this->_config_admin->get_boolean('common.visible_by_master_only') ||
                     (is_super_admin() && (!w3_force_master() || is_network_admin())))
             ) {
-                $submenu_pages[] = add_submenu_page('w3tc_dashboard', $titles[0] . ' | W3 Total Cache', $titles[1], 'manage_options', $slug, array(
+                $submenu_pages[] = add_submenu_page('w3tc_dashboard', $titles[0] . ' | WP Total Cache', $titles[1], 'manage_options', $slug, array(
                     &$this,
                     'options'
                 ));

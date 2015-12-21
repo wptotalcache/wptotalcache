@@ -1,7 +1,7 @@
 <?php
 
 /**
- * W3 Total Cache plugin
+ * WP Total Cache plugin
  */
 if (!defined('W3TC')) {
     die();
@@ -524,9 +524,9 @@ class W3_Plugin_TotalCache extends W3_Plugin {
                     $host = (!empty($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME'] : 'localhost');
 
                     if (w3_is_preview_mode())
-                        $buffer .= "\r\n<!-- W3 Total Cache used in preview mode -->";
+                        $buffer .= "\r\n<!-- WP Total Cache used in preview mode -->";
                     if ($this->_config->get_string('common.support') != '' || $this->_config->get_boolean('common.tweeted')) {
-                        $buffer .= sprintf("\r\n<!-- Served from: %s @ %s by W3 Total Cache -->", w3_escape_comment($host), $date);
+                        $buffer .= sprintf("\r\n<!-- Served from: %s @ %s by WP Total Cache -->", w3_escape_comment($host), $date);
                     } else {
                         $strings = array();
 
@@ -607,13 +607,13 @@ class W3_Plugin_TotalCache extends W3_Plugin {
                                                 sprintf(' (%s)', $w3_newrelic->newrelic_reject_reason) : '';
                             $strings[] = sprintf(__("Application Monitoring using New Relic%s", 'w3-total-cache'), $append);
                         }
-                        $buffer .= "\r\n<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/\r\n";
+                        $buffer .= "\r\n<!-- Performance optimized by WP Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/\r\n";
 
                         if (count($strings)) {
                             $buffer .= "\r\n" . implode("\r\n", $strings) . "\r\n";
                         }
 
-                        $buffer .= sprintf("\r\n Served from: %s @ %s by W3 Total Cache -->", w3_escape_comment($host), $date);
+                        $buffer .= sprintf("\r\n Served from: %s @ %s by WP Total Cache -->", w3_escape_comment($host), $date);
                     }
 
                     if ($this->is_debugging()) {
@@ -776,6 +776,6 @@ class W3_Plugin_TotalCache extends W3_Plugin {
     }
 
     public function pro_dev_mode() {
-        echo '<!-- W3 Total Cache is currently running in Pro version Development mode. --><div style="border:2px solid red;text-align:center;font-size:1.2em;color:red"><p><strong>W3 Total Cache is currently running in Pro version Development mode.</strong></p></div>';
+        echo '<!-- WP Total Cache is currently running in Pro version Development mode. --><div style="border:2px solid red;text-align:center;font-size:1.2em;color:red"><p><strong>WP Total Cache is currently running in Pro version Development mode.</strong></p></div>';
     }
 }

@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: W3 Total Cache
+Plugin Name: WP Total Cache
 Description: The highest rated and most complete WordPress performance plugin. Dramatically improve the speed and user experience of your site. Add browser, page, object and database caching as well as minify and content delivery network (CDN) to WordPress.
 Version: 0.9.4.1
 Plugin URI: http://www.w3-edge.com/wordpress-plugins/w3-total-cache/
@@ -21,7 +21,7 @@ Network: True
                 Ryan Boren
 	All rights reserved.
 
-	W3 Total Cache is distributed under the GNU General Public License, Version 2,
+	WP Total Cache is distributed under the GNU General Public License, Version 2,
 	June 1991. Copyright (C) 1989, 1991 Free Software Foundation, Inc., 51 Franklin
 	St, Fifth Floor, Boston, MA 02110, USA
 

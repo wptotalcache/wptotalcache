@@ -1,7 +1,7 @@
 <?php
 
 /**
- * W3 Total Cache CDN Plugin
+ * WP Total Cache CDN Plugin
  */
 if (!defined('W3TC')) {
     die();
@@ -765,7 +765,7 @@ class W3_Plugin_Cdn extends W3_Plugin {
      * @return string
      */
     function get_debug_info() {
-        $debug_info = "<!-- W3 Total Cache: CDN debug info:\r\n";
+        $debug_info = "<!-- WP Total Cache: CDN debug info:\r\n";
         $debug_info .= sprintf("%s%s\r\n", str_pad('Engine: ', 20), $this->_config->get_string('cdn.engine'));
 
         if ($this->cdn_reject_reason) {
