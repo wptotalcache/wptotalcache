@@ -34,7 +34,7 @@ define('EDD_W3EDGE_W3TC_NAME', 'WP Total Cache Pro: Annual Subscription');
 define('W3TC_WIN', (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN'));
 
 defined('W3TC_DIR') || define('W3TC_DIR', realpath(dirname(__FILE__) . '/..'));
-define('W3TC_FILE', 'w3-total-cache/w3-total-cache.php');
+define('W3TC_FILE', 'wp-total-cache/wp-total-cache.php');
 define('W3TC_INC_DIR', W3TC_DIR . '/inc');
 define('W3TC_INC_WIDGET_DIR', W3TC_INC_DIR. '/widget');
 define('W3TC_INC_FUNCTIONS_DIR', W3TC_INC_DIR . '/functions');
