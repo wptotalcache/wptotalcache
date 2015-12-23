@@ -4,7 +4,7 @@
     <header>
         <div class="left" style="float:left">
             <h2>Frederick Townes</h2>
-            <h3>CEO, W3 EDGE</h3>
+            <h3>CEO, wptotalcache.org</h3>
         </div>
         <div class="right" style="float:right">
             <div style="display: inline-block">

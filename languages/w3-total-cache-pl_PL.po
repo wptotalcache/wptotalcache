@@ -3985,7 +3985,7 @@ msgid "Add CNAME"
 msgstr ""
 
 #: inc/options/common/header.php:11
-msgid "WP Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>"
+msgid "WP Total Cache <span>by wptotalcache.org <sup>&reg;</sup></span>"
 msgstr ""
 
 #: inc/options/common/header.php:22 inc/options/common/header.php:41
@@ -4955,7 +4955,7 @@ msgstr ""
 
 #: inc/widget/spreadtheword.php:16
 #, php-format
-msgid "Performance Optimization %s by W3 EDGE"
+msgid "Performance Optimization %s by wptotalcache.org"
 msgstr ""
 
 #: lib/NetDNA/NetDNAPresentation.php:63
