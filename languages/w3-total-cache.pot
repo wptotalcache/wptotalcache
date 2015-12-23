@@ -2069,7 +2069,7 @@ msgid "Test S3 upload"
 msgstr ""
 
 #: inc/options/common/header.php:14
-msgid "WP Total Cache <span>by W3 EDGE <sup>&reg;</sup></span>"
+msgid "WP Total Cache <span>by wptotalcache.org <sup>&reg;</sup></span>"
 msgstr ""
 
 #: inc/options/common/header.php:27 inc/options/common/header.php:46
@@ -4787,7 +4787,7 @@ msgstr ""
 
 #: inc/widget/spreadtheword.php:16
 #, php-format
-msgid "Performance Optimization %s by W3 EDGE"
+msgid "Performance Optimization %s by wptotalcache.org"
 msgstr ""
 
 #: lib/NetDNA/NetDNA.php:341

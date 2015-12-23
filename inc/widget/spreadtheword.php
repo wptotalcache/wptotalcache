@@ -13,4 +13,4 @@
 </ul>
 
 <p><?php _e('Or manually place a link, here is the code:', 'w3-total-cache') ?></p>
-<div class="w3tc-manual-link widefat"><p><?php echo sprintf(__('Performance Optimization %s by W3 EDGE', 'w3-total-cache'), "&lt;a href=&quot;http://www.w3-edge.com/wordpress-plugins/&quot; rel=&quot;external nofollow&quot;&gt;WordPress Plugins&lt;/a&gt;")?></p></div>
+<div class="w3tc-manual-link widefat"><p><?php echo sprintf(__('Performance Optimization %s by wptotalcache.org', 'w3-total-cache'), "&lt;a href=&quot;http://www.w3-edge.com/wordpress-plugins/&quot; rel=&quot;external nofollow&quot;&gt;WordPress Plugins&lt;/a&gt;")?></p></div>
