@@ -70,7 +70,7 @@ class W3_Plugin_TotalCache extends W3_Plugin {
             ), 0, 5);
         }
 
-        if ($this->_config->get_string('common.support') == 'footer') {
+        if ($this->_config->get_string('common.support') == 'footer' && FALSE) {
             add_action('wp_footer', array(
                 &$this,
                 'footer'
